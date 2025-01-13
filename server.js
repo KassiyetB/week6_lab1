@@ -68,7 +68,7 @@ app.get('/students/:name', async (req, res) => {
 
 
 //READ filter enrolled:true
-app.get('/students/enrolled', async (req, res) => {
+app.get('/students/get/enrolled', async (req, res) => {
     try {
       const students = await StudentModel.find({ enrolled: true });
       console.log(students);

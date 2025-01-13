@@ -53,7 +53,7 @@ GET http://localhost:3000/students/Kassiyet
 
 
 ### GET students with  enrolled:true
-GET http://localhost:3000/students/enrolled
+GET http://localhost:3000/students/get/enrolled
 
 
 ### PUT update student
@@ -62,8 +62,8 @@ Content-Type: application/json
 
 {
   "name": "Kassiyet",
-  "age": 21,
-  "major": "Computer Science",
+  "age": 23,
+  "major": "Physics",
   "enrolled": false
 }
 
@@ -73,7 +73,7 @@ PUT http://localhost:3000/students/enroll
 Content-Type: application/json
 
 {
-  "major": "Computer Science",
+  "major": "Physics",
   "enrolledStatus": true
 }
 
