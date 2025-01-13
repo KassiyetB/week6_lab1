@@ -1,0 +1,93 @@
+### POST many students
+POST http://localhost:3000/students/many
+Content-Type: application/json
+
+[
+    { 
+        "name": "Kassiyet", 
+        "age": 21, 
+        "major": "Computer Science", 
+        "enrolled": false 
+    },
+    { 
+        "name": "Ariq", 
+        "age": 22, 
+        "major": "Mathematics", 
+        "enrolled": true 
+    },
+    { 
+        "name": "Dias", 
+        "age": 20, "major": 
+        "Game Development", 
+        "enrolled": true 
+    },
+    { 
+        "name": "Danial", 
+        "age": 19, 
+        "major": "Physics", 
+        "enrolled": true 
+    }
+]
+
+
+
+### POST single student
+POST http://localhost:3000/students
+Content-Type: application/json
+
+{ 
+    "name": "Arman", 
+    "age": 21, 
+    "major": "Computer Science", 
+    "enrolled": false 
+}
+
+
+
+### GET all students
+GET http://localhost:3000/students
+
+
+### GET student by name
+GET http://localhost:3000/students/Kassiyet
+
+
+### GET students with  enrolled:true
+GET http://localhost:3000/students/enrolled
+
+
+### PUT update student
+PUT http://localhost:3000/students/update/Kassiyet
+Content-Type: application/json
+
+{
+  "name": "Kassiyet",
+  "age": 21,
+  "major": "Computer Science",
+  "enrolled": false
+}
+
+
+### PUT update every student enrolled status by their major
+PUT http://localhost:3000/students/enroll 
+Content-Type: application/json
+
+{
+  "major": "Computer Science",
+  "enrolledStatus": true
+}
+
+
+
+### DELETE  student by name
+DELETE http://localhost:3000/students/Danial
+
+
+
+### DELETE  not enrolled students
+DELETE http://localhost:3000/students/delete/not-enrolled
+
+
+
+### DELETE  all
+DELETE http://localhost:3000/students/delete/all
