@@ -2,6 +2,10 @@
 
 This is a simple Express.js API that manages students in a MongoDB database. It provides several endpoints to perform CRUD operations on student records. The API allows users to add, update, retrieve, and delete students based on various criteria.
 
+##Connection to the mongoDB:
+![Screenshot 2025-01-13 221210](https://github.com/user-attachments/assets/5136fd04-60f8-48ba-b04f-5f4e07f0fc51)
+![Screenshot 2025-01-13 221203](https://github.com/user-attachments/assets/0215d55f-b55d-4a5b-bbd6-6dd4715845c5)
+
 ## Using REST Client to test the API:
   > [!TIP]
   > The test file is located at ``` /apiTest/student.http ```
@@ -93,7 +97,7 @@ This is a simple Express.js API that manages students in a MongoDB database. It 
 
 
 
-9. **Delete all the students using request ``` DELETE http://localhost:3000/students/delete/all ```**
+10. **Delete all the students using request ``` DELETE http://localhost:3000/students/delete/all ```**
 * **Resqest:**
 > ![Screenshot 2025-01-13 220834](https://github.com/user-attachments/assets/672815fb-8556-4439-b16f-8a4f8f864563)
 
