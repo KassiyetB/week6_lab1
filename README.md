@@ -7,7 +7,7 @@ This is a simple Express.js API that manages students in a MongoDB database. It 
   > The test file is located at ``` /apiTest/student.http ```
 
 ### Tests:
-1. Inserting many students at once using request ``` POST http://localhost:3000/students/many ```:
+1. ** Inserting many students at once using request ``` POST http://localhost:3000/students/many ```: **
 * **Request:**
 > ![Screenshot 2025-01-13 214337](https://github.com/user-attachments/assets/ef80eb8f-82b6-4cb8-a3df-1e6bf9702780)
 
@@ -16,7 +16,7 @@ This is a simple Express.js API that manages students in a MongoDB database. It 
 
 
 
-2. Inserting single student using request ``` POST http://localhost:3000/students ```
+2. ** Inserting single student using request ``` POST http://localhost:3000/students ``` **
 * **Resqest:**
 > ![Screenshot 2025-01-13 214230](https://github.com/user-attachments/assets/2fc73eb9-3f22-4b56-8c5a-7fda0743076b)
 
@@ -25,7 +25,7 @@ This is a simple Express.js API that manages students in a MongoDB database. It 
 
 
 
-3. Get all the students using request ``` GET http://localhost:3000/students ```
+3. ** Get all the students using request ``` GET http://localhost:3000/students ``` **
 * **Resqest:**
 > ![Screenshot 2025-01-13 214613](https://github.com/user-attachments/assets/5d738ab5-adc7-4b45-beb0-6ff385ff693e)
 
